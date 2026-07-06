@@ -1,0 +1,78 @@
+Overview
+
+This repository documents a hands-on SQL Injection (SQLi) lab completed in a controlled and authorized environment. The objective was to understand how improper input validation and insecure database queries can allow an attacker to bypass authentication mechanisms.
+
+The exercise demonstrates how HTTP requests can be analyzed using Burp Suite, how different request formats affect server behavior, and how vulnerable login functionality can be exploited when user input is not securely handled.
+
+«Disclaimer: This project was performed in a legal training/laboratory environment for educational and defensive cybersecurity purposes only. The techniques discussed here should only be used on systems you own or have explicit permission to test.»
+
+---
+
+Objectives
+
+- Understand the fundamentals of SQL Injection.
+- Analyze HTTP requests using Burp Suite.
+- Observe how login requests are processed by a web application.
+- Identify an authentication bypass caused by insecure SQL query construction.
+- Learn secure coding practices to prevent SQL Injection vulnerabilities.
+
+---
+
+Tools Used
+
+- Burp Suite
+- Web Browser
+- Vulnerable Web Application (OWASP Juice-Shop)
+
+---
+
+What I Learned
+
+During this lab, I gained practical experience in identifying an SQL Injection vulnerability within a login feature.
+
+The exercise reinforced several important cybersecurity concepts:
+
+- Never trust user input.
+- Authentication systems must validate and sanitize all incoming data.
+- Parameterized (prepared) SQL queries are essential for preventing SQL Injection.
+- Error messages can unintentionally reveal useful information to attackers.
+- Security testing helps developers discover weaknesses before attackers do.
+
+---
+
+Defensive Recommendations
+
+To protect applications against SQL Injection:
+
+- Use parameterized/prepared SQL statements.
+- Validate and sanitize all user input.
+- Apply the principle of least privilege to database accounts.
+- Avoid exposing detailed database or authentication errors.
+- Implement secure authentication and logging practices.
+- Perform regular penetration testing and code reviews.
+
+---
+
+Skills Demonstrated
+
+- Web Application Security
+- SQL Injection Analysis
+- HTTP Request Manipulation
+- Burp Suite
+- Authentication Testing
+- OWASP Top 10 Awareness
+- Vulnerability Assessment
+
+---
+
+Ethical Notice
+
+This repository is intended solely for educational purposes. All testing was conducted within an authorized environment. Do not attempt these techniques against systems without explicit written permission.
+
+---
+
+Author
+
+Olasebikan Oluwatosin Daniel
+
+Aspiring Penetration Tester | Cybersecurity Learner | Ethical Hacker in Training
